@@ -20,9 +20,15 @@ dependencies:
   jade:
     specifier: ~1.11.0
     version: npm-verdaccio.gaodunwangxiao.com/jade@1.11.0
+  knex:
+    specifier: ^3.1.0
+    version: npm-verdaccio.gaodunwangxiao.com/knex@3.1.0(mysql@2.18.1)
   morgan:
     specifier: ~1.9.1
     version: npm-verdaccio.gaodunwangxiao.com/morgan@1.9.1
+  mysql:
+    specifier: ^2.18.1
+    version: npm-verdaccio.gaodunwangxiao.com/mysql@2.18.1
   winston:
     specifier: ^3.13.0
     version: npm-verdaccio.gaodunwangxiao.com/winston@3.13.0
@@ -129,6 +135,12 @@ packages:
     engines: {node: '>= 0.8'}
     dependencies:
       safe-buffer: npm-verdaccio.gaodunwangxiao.com/safe-buffer@5.1.2
+    dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/bignumber.js@9.0.0:
+    resolution: {integrity: sha512-t/OYhhJ2SD+YGBQcjY8GzzDHEk9f3nerxjtfa6tlMXfe7frs/WozhvCNoGvpM0P3bNf3Gq5ZRMlGr5f3r4/N8A==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/bignumber.js/-/bignumber.js-9.0.0.tgz}
+    name: bignumber.js
+    version: 9.0.0
     dev: false
 
   npm-verdaccio.gaodunwangxiao.com/body-parser@1.18.2:
@@ -240,6 +252,12 @@ packages:
       color-string: npm-verdaccio.gaodunwangxiao.com/color-string@1.9.1
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/colorette@2.0.19:
+    resolution: {integrity: sha512-3tlv/dIP7FWvj3BsbHrGLJ6l/oKh1O3TcgBqMn+yyCagOxc23fyzDS6HypQbgxWbkpDnf52p1LuR4eWDQ/K9WQ==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/colorette/-/colorette-2.0.19.tgz}
+    name: colorette
+    version: 2.0.19
+    dev: false
+
   npm-verdaccio.gaodunwangxiao.com/colorspace@1.1.4:
     resolution: {integrity: sha512-BgvKJiuVu1igBUF2kEjRCZXol6wiiGbY5ipL/oVPwm0BL9sIpMIzM8IK7vwuxIIzOXMV3Ey5w+vxhm0rR/TN8w==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/colorspace/-/colorspace-1.1.4.tgz}
     name: colorspace
@@ -247,6 +265,13 @@ packages:
     dependencies:
       color: npm-verdaccio.gaodunwangxiao.com/color@3.2.1
       text-hex: npm-verdaccio.gaodunwangxiao.com/text-hex@1.0.0
+    dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/commander@10.0.1:
+    resolution: {integrity: sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/commander/-/commander-10.0.1.tgz}
+    name: commander
+    version: 10.0.1
+    engines: {node: '>=14'}
     dev: false
 
   npm-verdaccio.gaodunwangxiao.com/commander@2.6.0:
@@ -311,6 +336,12 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/core-util-is@1.0.3:
+    resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/core-util-is/-/core-util-is-1.0.3.tgz}
+    name: core-util-is
+    version: 1.0.3
+    dev: false
+
   npm-verdaccio.gaodunwangxiao.com/css-parse@1.0.4:
     resolution: {integrity: sha1-OLBQP7+dqfVOnB29pg4UXHcRe90=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/css-parse/-/css-parse-1.0.4.tgz}
     name: css-parse
@@ -343,6 +374,20 @@ packages:
         optional: true
     dependencies:
       ms: npm-verdaccio.gaodunwangxiao.com/ms@2.0.0
+    dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/debug@4.3.4:
+    resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/debug/-/debug-4.3.4.tgz}
+    name: debug
+    version: 4.3.4
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: npm-verdaccio.gaodunwangxiao.com/ms@2.1.2
     dev: false
 
   npm-verdaccio.gaodunwangxiao.com/decamelize@1.2.0:
@@ -391,10 +436,24 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/escalade@3.1.2:
+    resolution: {integrity: sha512-ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/escalade/-/escalade-3.1.2.tgz}
+    name: escalade
+    version: 3.1.2
+    engines: {node: '>=6'}
+    dev: false
+
   npm-verdaccio.gaodunwangxiao.com/escape-html@1.0.3:
     resolution: {integrity: sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/escape-html/-/escape-html-1.0.3.tgz}
     name: escape-html
     version: 1.0.3
+    dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/esm@3.2.25:
+    resolution: {integrity: sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/esm/-/esm-3.2.25.tgz}
+    name: esm
+    version: 3.2.25
+    engines: {node: '>=6'}
     dev: false
 
   npm-verdaccio.gaodunwangxiao.com/etag@1.8.1:
@@ -487,10 +546,38 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/function-bind@1.1.2:
+    resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/function-bind/-/function-bind-1.1.2.tgz}
+    name: function-bind
+    version: 1.1.2
+    dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/get-package-type@0.1.0:
+    resolution: {integrity: sha512-pjzuKtY64GYfWizNAJ0fr9VqttZkNiK2iS430LtIHzjBEr6bX8Am2zm4sW4Ro5wjWW5cAlRL1qAMTcXbjNAO2Q==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/get-package-type/-/get-package-type-0.1.0.tgz}
+    name: get-package-type
+    version: 0.1.0
+    engines: {node: '>=8.0.0'}
+    dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/getopts@2.3.0:
+    resolution: {integrity: sha512-5eDf9fuSXwxBL6q5HX+dhDj+dslFGWzU5thZ9kNKUkcPtaPdatmUFKwHFrLb/uf/WpA4BHET+AX3Scl56cAjpA==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/getopts/-/getopts-2.3.0.tgz}
+    name: getopts
+    version: 2.3.0
+    dev: false
+
   npm-verdaccio.gaodunwangxiao.com/graceful-readlink@1.0.1:
     resolution: {integrity: sha1-TK+tdrxi8C+gObL5Tpo906ORpyU=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz}
     name: graceful-readlink
     version: 1.0.1
+    dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/hasown@2.0.2:
+    resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/hasown/-/hasown-2.0.2.tgz}
+    name: hasown
+    version: 2.0.2
+    engines: {node: '>= 0.4'}
+    dependencies:
+      function-bind: npm-verdaccio.gaodunwangxiao.com/function-bind@1.1.2
     dev: false
 
   npm-verdaccio.gaodunwangxiao.com/http-errors@1.6.2:
@@ -530,6 +617,13 @@ packages:
     version: 2.0.3
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/interpret@2.2.0:
+    resolution: {integrity: sha512-Ju0Bz/cEia55xDwUWEa8+olFpCiQoypjnQySseKtmjNrnps3P+xfpUmGr90T7yjlVJmOtybRvPXhKMbHr+fWnw==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/interpret/-/interpret-2.2.0.tgz}
+    name: interpret
+    version: 2.2.0
+    engines: {node: '>= 0.10'}
+    dev: false
+
   npm-verdaccio.gaodunwangxiao.com/ipaddr.js@1.9.1:
     resolution: {integrity: sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz}
     name: ipaddr.js
@@ -549,6 +643,14 @@ packages:
     version: 1.1.6
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/is-core-module@2.13.1:
+    resolution: {integrity: sha512-hHrIjvZsftOsvKSn2TRYl63zvxsgE0K+0mYMoH6gD4omR5IWB2KynivBQczo3+wF1cCkjzvptnI9Q0sPU66ilw==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/is-core-module/-/is-core-module-2.13.1.tgz}
+    name: is-core-module
+    version: 2.13.1
+    dependencies:
+      hasown: npm-verdaccio.gaodunwangxiao.com/hasown@2.0.2
+    dev: false
+
   npm-verdaccio.gaodunwangxiao.com/is-promise@1.0.1:
     resolution: {integrity: sha1-MVc3YcBX4zwukaq56W2gjO++duU=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/is-promise/-/is-promise-1.0.1.tgz}
     name: is-promise
@@ -566,6 +668,12 @@ packages:
     name: is-stream
     version: 2.0.1
     engines: {node: '>=8'}
+    dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/isarray@1.0.0:
+    resolution: {integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/isarray/-/isarray-1.0.0.tgz}
+    name: isarray
+    version: 1.0.0
     dev: false
 
   npm-verdaccio.gaodunwangxiao.com/jade@1.11.0:
@@ -605,6 +713,56 @@ packages:
       is-buffer: npm-verdaccio.gaodunwangxiao.com/is-buffer@1.1.6
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/knex@3.1.0(mysql@2.18.1):
+    resolution: {integrity: sha512-GLoII6hR0c4ti243gMs5/1Rb3B+AjwMOfjYm97pu0FOQa7JH56hgBxYf5WK2525ceSbBY1cjeZ9yk99GPMB6Kw==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/knex/-/knex-3.1.0.tgz}
+    id: npm-verdaccio.gaodunwangxiao.com/knex/3.1.0
+    name: knex
+    version: 3.1.0
+    engines: {node: '>=16'}
+    hasBin: true
+    peerDependencies:
+      better-sqlite3: '*'
+      mysql: '*'
+      mysql2: '*'
+      pg: '*'
+      pg-native: '*'
+      sqlite3: '*'
+      tedious: '*'
+    peerDependenciesMeta:
+      better-sqlite3:
+        optional: true
+      mysql:
+        optional: true
+      mysql2:
+        optional: true
+      pg:
+        optional: true
+      pg-native:
+        optional: true
+      sqlite3:
+        optional: true
+      tedious:
+        optional: true
+    dependencies:
+      colorette: npm-verdaccio.gaodunwangxiao.com/colorette@2.0.19
+      commander: npm-verdaccio.gaodunwangxiao.com/commander@10.0.1
+      debug: npm-verdaccio.gaodunwangxiao.com/debug@4.3.4
+      escalade: npm-verdaccio.gaodunwangxiao.com/escalade@3.1.2
+      esm: npm-verdaccio.gaodunwangxiao.com/esm@3.2.25
+      get-package-type: npm-verdaccio.gaodunwangxiao.com/get-package-type@0.1.0
+      getopts: npm-verdaccio.gaodunwangxiao.com/getopts@2.3.0
+      interpret: npm-verdaccio.gaodunwangxiao.com/interpret@2.2.0
+      lodash: npm-verdaccio.gaodunwangxiao.com/lodash@4.17.21
+      mysql: npm-verdaccio.gaodunwangxiao.com/mysql@2.18.1
+      pg-connection-string: npm-verdaccio.gaodunwangxiao.com/pg-connection-string@2.6.2
+      rechoir: npm-verdaccio.gaodunwangxiao.com/rechoir@0.8.0
+      resolve-from: npm-verdaccio.gaodunwangxiao.com/resolve-from@5.0.0
+      tarn: npm-verdaccio.gaodunwangxiao.com/tarn@3.0.2
+      tildify: npm-verdaccio.gaodunwangxiao.com/tildify@2.0.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
   npm-verdaccio.gaodunwangxiao.com/kuler@2.0.0:
     resolution: {integrity: sha512-Xq9nH7KlWZmXAtodXDDRE7vs6DU1gTU8zYDHDiWLSip45Egwq3plLHzPn27NgvzL2r1LMPC1vdqh98sQxtqj4A==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/kuler/-/kuler-2.0.0.tgz}
     name: kuler
@@ -616,6 +774,12 @@ packages:
     name: lazy-cache
     version: 1.0.4
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/lodash@4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/lodash/-/lodash-4.17.21.tgz}
+    name: lodash
+    version: 4.17.21
     dev: false
 
   npm-verdaccio.gaodunwangxiao.com/logform@2.6.0:
@@ -718,10 +882,28 @@ packages:
     version: 2.0.0
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/ms@2.1.2:
+    resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/ms/-/ms-2.1.2.tgz}
+    name: ms
+    version: 2.1.2
+    dev: false
+
   npm-verdaccio.gaodunwangxiao.com/ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/ms/-/ms-2.1.3.tgz}
     name: ms
     version: 2.1.3
+    dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/mysql@2.18.1:
+    resolution: {integrity: sha512-Bca+gk2YWmqp2Uf6k5NFEurwY/0td0cpebAucFpY/3jhrwrVGuxU2uQFCHjU19SJfje0yQvi+rVWdq78hR5lig==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/mysql/-/mysql-2.18.1.tgz}
+    name: mysql
+    version: 2.18.1
+    engines: {node: '>= 0.6'}
+    dependencies:
+      bignumber.js: npm-verdaccio.gaodunwangxiao.com/bignumber.js@9.0.0
+      readable-stream: npm-verdaccio.gaodunwangxiao.com/readable-stream@2.3.7
+      safe-buffer: npm-verdaccio.gaodunwangxiao.com/safe-buffer@5.1.2
+      sqlstring: npm-verdaccio.gaodunwangxiao.com/sqlstring@2.3.1
     dev: false
 
   npm-verdaccio.gaodunwangxiao.com/negotiator@0.6.3:
@@ -770,10 +952,28 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/path-parse@1.0.7:
+    resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/path-parse/-/path-parse-1.0.7.tgz}
+    name: path-parse
+    version: 1.0.7
+    dev: false
+
   npm-verdaccio.gaodunwangxiao.com/path-to-regexp@0.1.7:
     resolution: {integrity: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz}
     name: path-to-regexp
     version: 0.1.7
+    dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/pg-connection-string@2.6.2:
+    resolution: {integrity: sha512-ch6OwaeaPYcova4kKZ15sbJ2hKb/VP48ZD2gE7i1J+L4MspCtBMAx8nMgz7bksc7IojCIIWuEhHibSMFH8m8oA==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/pg-connection-string/-/pg-connection-string-2.6.2.tgz}
+    name: pg-connection-string
+    version: 2.6.2
+    dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/process-nextick-args@2.0.1:
+    resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz}
+    name: process-nextick-args
+    version: 2.0.1
     dev: false
 
   npm-verdaccio.gaodunwangxiao.com/promise@2.0.0:
@@ -828,6 +1028,20 @@ packages:
       unpipe: npm-verdaccio.gaodunwangxiao.com/unpipe@1.0.0
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/readable-stream@2.3.7:
+    resolution: {integrity: sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHItp/fy6hQZuZmP/n3yZ9VBUbp4zz/mX8hmYPw==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/readable-stream/-/readable-stream-2.3.7.tgz}
+    name: readable-stream
+    version: 2.3.7
+    dependencies:
+      core-util-is: npm-verdaccio.gaodunwangxiao.com/core-util-is@1.0.3
+      inherits: npm-verdaccio.gaodunwangxiao.com/inherits@2.0.3
+      isarray: npm-verdaccio.gaodunwangxiao.com/isarray@1.0.0
+      process-nextick-args: npm-verdaccio.gaodunwangxiao.com/process-nextick-args@2.0.1
+      safe-buffer: npm-verdaccio.gaodunwangxiao.com/safe-buffer@5.1.2
+      string_decoder: npm-verdaccio.gaodunwangxiao.com/string_decoder@1.1.1
+      util-deprecate: npm-verdaccio.gaodunwangxiao.com/util-deprecate@1.0.2
+    dev: false
+
   npm-verdaccio.gaodunwangxiao.com/readable-stream@3.6.2:
     resolution: {integrity: sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/readable-stream/-/readable-stream-3.6.2.tgz}
     name: readable-stream
@@ -839,11 +1053,38 @@ packages:
       util-deprecate: npm-verdaccio.gaodunwangxiao.com/util-deprecate@1.0.2
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/rechoir@0.8.0:
+    resolution: {integrity: sha512-/vxpCXddiX8NGfGO/mTafwjq4aFa/71pvamip0++IQk3zG8cbCj0fifNPrjjF1XMXUne91jL9OoxmdykoEtifQ==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/rechoir/-/rechoir-0.8.0.tgz}
+    name: rechoir
+    version: 0.8.0
+    engines: {node: '>= 10.13.0'}
+    dependencies:
+      resolve: npm-verdaccio.gaodunwangxiao.com/resolve@1.22.8
+    dev: false
+
   npm-verdaccio.gaodunwangxiao.com/repeat-string@1.6.1:
     resolution: {integrity: sha1-jcrkcOHIirwtYA//Sndihtp15jc=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/repeat-string/-/repeat-string-1.6.1.tgz}
     name: repeat-string
     version: 1.6.1
     engines: {node: '>=0.10'}
+    dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/resolve-from@5.0.0:
+    resolution: {integrity: sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/resolve-from/-/resolve-from-5.0.0.tgz}
+    name: resolve-from
+    version: 5.0.0
+    engines: {node: '>=8'}
+    dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/resolve@1.22.8:
+    resolution: {integrity: sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/resolve/-/resolve-1.22.8.tgz}
+    name: resolve
+    version: 1.22.8
+    hasBin: true
+    dependencies:
+      is-core-module: npm-verdaccio.gaodunwangxiao.com/is-core-module@2.13.1
+      path-parse: npm-verdaccio.gaodunwangxiao.com/path-parse@1.0.7
+      supports-preserve-symlinks-flag: npm-verdaccio.gaodunwangxiao.com/supports-preserve-symlinks-flag@1.0.0
     dev: false
 
   npm-verdaccio.gaodunwangxiao.com/right-align@0.1.3:
@@ -962,6 +1203,13 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/sqlstring@2.3.1:
+    resolution: {integrity: sha1-R1OT/56RR5rqYtyvDKPRSYOn+0A=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/sqlstring/-/sqlstring-2.3.1.tgz}
+    name: sqlstring
+    version: 2.3.1
+    engines: {node: '>= 0.6'}
+    dev: false
+
   npm-verdaccio.gaodunwangxiao.com/stack-trace@0.0.10:
     resolution: {integrity: sha1-VHxws0fo0ytOEI6hoqFZ5f3eGcA=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/stack-trace/-/stack-trace-0.0.10.tgz}
     name: stack-trace
@@ -982,6 +1230,14 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/string_decoder@1.1.1:
+    resolution: {integrity: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/string_decoder/-/string_decoder-1.1.1.tgz}
+    name: string_decoder
+    version: 1.1.1
+    dependencies:
+      safe-buffer: npm-verdaccio.gaodunwangxiao.com/safe-buffer@5.1.2
+    dev: false
+
   npm-verdaccio.gaodunwangxiao.com/string_decoder@1.3.0:
     resolution: {integrity: sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/string_decoder/-/string_decoder-1.3.0.tgz}
     name: string_decoder
@@ -990,10 +1246,31 @@ packages:
       safe-buffer: npm-verdaccio.gaodunwangxiao.com/safe-buffer@5.2.1
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/supports-preserve-symlinks-flag@1.0.0:
+    resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz}
+    name: supports-preserve-symlinks-flag
+    version: 1.0.0
+    engines: {node: '>= 0.4'}
+    dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/tarn@3.0.2:
+    resolution: {integrity: sha512-51LAVKUSZSVfI05vjPESNc5vwqqZpbXCsU+/+wxlOrUjk2SnFTt97v9ZgQrD4YmxYW1Px6w2KjaDitCfkvgxMQ==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/tarn/-/tarn-3.0.2.tgz}
+    name: tarn
+    version: 3.0.2
+    engines: {node: '>=8.0.0'}
+    dev: false
+
   npm-verdaccio.gaodunwangxiao.com/text-hex@1.0.0:
     resolution: {integrity: sha512-uuVGNWzgJ4yhRaNSiubPY7OjISw4sw4E5Uv0wbjp+OzcbmVU/rsT8ujgcXJhn9ypzsgr5vlzpPqP+MBBKcGvbg==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/text-hex/-/text-hex-1.0.0.tgz}
     name: text-hex
     version: 1.0.0
+    dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/tildify@2.0.0:
+    resolution: {integrity: sha512-Cc+OraorugtXNfs50hU9KS369rFXCfgGLpfCfvlc+Ud5u6VWmUQsOAa9HbTvheQdYnrdJqqv1e5oIqXppMYnSw==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/tildify/-/tildify-2.0.0.tgz}
+    name: tildify
+    version: 2.0.0
+    engines: {node: '>=8'}
     dev: false
 
   npm-verdaccio.gaodunwangxiao.com/transformers@2.1.0:
