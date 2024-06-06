@@ -1,6 +1,6 @@
 const { createLogger, format, transports } = require('winston');
-const fs = require('fs');
 const path = require('path');
+import fs from 'fs';
 
 const env = process.env.NODE_ENV || 'development';
 const logDir = 'log';
@@ -16,6 +16,7 @@ const logger = createLogger({
   // change level if in dev environment versus production
   level: env === 'production' ? 'info' : 'debug',
   format: format.combine(
+    // @ts-ignore
     format.label({ label: path.basename(process.mainModule.filename) }),
     format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' })
   ),
@@ -24,7 +25,7 @@ const logger = createLogger({
       format: format.combine(
         format.colorize(),
         format.printf(
-          info =>
+          (info: any) =>
             `${info.timestamp} ${info.level} [${info.label}]: ${info.message}`
         )
       )
@@ -33,7 +34,7 @@ const logger = createLogger({
       filename,
       format: format.combine(
         format.printf(
-          info =>
+          (info: any) =>
             `${info.timestamp} ${info.level} [${info.label}]: ${info.message}`
         )
       )
@@ -41,4 +42,4 @@ const logger = createLogger({
   ]
 });
 
-module.exports = logger;
+export default logger;

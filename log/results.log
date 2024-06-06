@@ -2,3 +2,4 @@
 2024-06-05 16:31:33 error [www]: GET /user Not Found
 2024-06-05 19:19:37 error [www]: GET /favicon.ico Not Found
 2024-06-05 20:02:25 error [www]: GET /favicon.ico Not Found
+2024-06-06 15:28:35 error [www.ts]: GET /error Not Found

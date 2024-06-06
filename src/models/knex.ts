@@ -1,7 +1,7 @@
-// 引用配置文件
-const configs = require('../config');
-// 把配置文件中的信息，设置在初始化配置中
-module.exports = require('knex')({
+import configs from '../../config';
+import knex from 'knex';
+
+const db = knex({
   client: 'mysql',
   connection: {
     host: configs.mysql.host,
@@ -10,10 +10,11 @@ module.exports = require('knex')({
     password: configs.mysql.password,
     database: configs.mysql.database
   },
-  // 打印错误
   log: {
-    error (message) {
+    error (message: string) {
       console.log('[knex error]', message)
     }
   }
 })
+
+export default db;

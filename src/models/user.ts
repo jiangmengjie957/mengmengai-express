@@ -1,4 +1,4 @@
-const Base = require('./base');
+import Base from './base'
 
 class User extends Base {
   // 定义参数默认值为 user 表
@@ -7,4 +7,4 @@ class User extends Base {
   }
 }
 
-module.exports = new User();
+export default new User();
