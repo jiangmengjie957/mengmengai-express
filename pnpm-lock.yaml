@@ -33,6 +33,20 @@ dependencies:
     specifier: ^3.13.0
     version: npm-verdaccio.gaodunwangxiao.com/winston@3.13.0
 
+devDependencies:
+  '@types/express':
+    specifier: ^4.17.21
+    version: npm-verdaccio.gaodunwangxiao.com/@types/express@4.17.21
+  '@types/node':
+    specifier: ^20.14.2
+    version: npm-verdaccio.gaodunwangxiao.com/@types/node@20.14.2
+  ts-node:
+    specifier: ^10.9.2
+    version: npm-verdaccio.gaodunwangxiao.com/ts-node@10.9.2(@types/node@20.14.2)(typescript@5.4.5)
+  typescript:
+    specifier: ^5.4.5
+    version: npm-verdaccio.gaodunwangxiao.com/typescript@5.4.5
+
 packages:
 
   npm-verdaccio.gaodunwangxiao.com/@colors/colors@1.6.0:
@@ -41,6 +55,15 @@ packages:
     version: 1.6.0
     engines: {node: '>=0.1.90'}
     dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/@cspotcode/source-map-support@0.8.1:
+    resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@cspotcode%2fsource-map-support/-/source-map-support-0.8.1.tgz}
+    name: '@cspotcode/source-map-support'
+    version: 0.8.1
+    engines: {node: '>=12'}
+    dependencies:
+      '@jridgewell/trace-mapping': npm-verdaccio.gaodunwangxiao.com/@jridgewell/trace-mapping@0.3.9
+    dev: true
 
   npm-verdaccio.gaodunwangxiao.com/@dabh/diagnostics@2.0.3:
     resolution: {integrity: sha512-hrlQOIi7hAfzsMqlGSFyVucrx38O+j6wiGOf//H2ecvIEqYN4ADBSS2iLMh5UFyDunCNniUIPk/q3riFv45xRA==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@dabh%2fdiagnostics/-/diagnostics-2.0.3.tgz}
@@ -51,6 +74,142 @@ packages:
       enabled: npm-verdaccio.gaodunwangxiao.com/enabled@2.0.0
       kuler: npm-verdaccio.gaodunwangxiao.com/kuler@2.0.0
     dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/@jridgewell/resolve-uri@3.1.2:
+    resolution: {integrity: sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@jridgewell%2fresolve-uri/-/resolve-uri-3.1.2.tgz}
+    name: '@jridgewell/resolve-uri'
+    version: 3.1.2
+    engines: {node: '>=6.0.0'}
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@jridgewell/sourcemap-codec@1.4.15:
+    resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@jridgewell%2fsourcemap-codec/-/sourcemap-codec-1.4.15.tgz}
+    name: '@jridgewell/sourcemap-codec'
+    version: 1.4.15
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@jridgewell/trace-mapping@0.3.9:
+    resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@jridgewell%2ftrace-mapping/-/trace-mapping-0.3.9.tgz}
+    name: '@jridgewell/trace-mapping'
+    version: 0.3.9
+    dependencies:
+      '@jridgewell/resolve-uri': npm-verdaccio.gaodunwangxiao.com/@jridgewell/resolve-uri@3.1.2
+      '@jridgewell/sourcemap-codec': npm-verdaccio.gaodunwangxiao.com/@jridgewell/sourcemap-codec@1.4.15
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@tsconfig/node10@1.0.11:
+    resolution: {integrity: sha512-DcRjDCujK/kCk/cUe8Xz8ZSpm8mS3mNNpta+jGCA6USEDfktlNvm1+IuZ9eTcDbNk41BHwpHHeW+N1lKCz4zOw==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@tsconfig%2fnode10/-/node10-1.0.11.tgz}
+    name: '@tsconfig/node10'
+    version: 1.0.11
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@tsconfig/node12@1.0.11:
+    resolution: {integrity: sha512-cqefuRsh12pWyGsIoBKJA9luFu3mRxCA+ORZvA4ktLSzIuCUtWVxGIuXigEwO5/ywWFMZ2QEGKWvkZG1zDMTag==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@tsconfig%2fnode12/-/node12-1.0.11.tgz}
+    name: '@tsconfig/node12'
+    version: 1.0.11
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@tsconfig/node14@1.0.3:
+    resolution: {integrity: sha512-ysT8mhdixWK6Hw3i1V2AeRqZ5WfXg1G43mqoYlM2nc6388Fq5jcXyr5mRsqViLx/GJYdoL0bfXD8nmF+Zn/Iow==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@tsconfig%2fnode14/-/node14-1.0.3.tgz}
+    name: '@tsconfig/node14'
+    version: 1.0.3
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@tsconfig/node16@1.0.4:
+    resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@tsconfig%2fnode16/-/node16-1.0.4.tgz}
+    name: '@tsconfig/node16'
+    version: 1.0.4
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@types/body-parser@1.19.5:
+    resolution: {integrity: sha512-fB3Zu92ucau0iQ0JMCFQE7b/dv8Ot07NI3KaZIkIUNXq82k4eBAqUaneXfleGY9JWskeS9y+u0nXMyspcuQrCg==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@types%2fbody-parser/-/body-parser-1.19.5.tgz}
+    name: '@types/body-parser'
+    version: 1.19.5
+    dependencies:
+      '@types/connect': npm-verdaccio.gaodunwangxiao.com/@types/connect@3.4.38
+      '@types/node': npm-verdaccio.gaodunwangxiao.com/@types/node@20.14.2
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@types/connect@3.4.38:
+    resolution: {integrity: sha512-K6uROf1LD88uDQqJCktA4yzL1YYAK6NgfsI0v/mTgyPKWsX1CnJ0XPSDhViejru1GcRkLWb8RlzFYJRqGUbaug==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@types%2fconnect/-/connect-3.4.38.tgz}
+    name: '@types/connect'
+    version: 3.4.38
+    dependencies:
+      '@types/node': npm-verdaccio.gaodunwangxiao.com/@types/node@20.14.2
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@types/express-serve-static-core@4.19.3:
+    resolution: {integrity: sha512-KOzM7MhcBFlmnlr/fzISFF5vGWVSvN6fTd4T+ExOt08bA/dA5kpSzY52nMsI1KDFmUREpJelPYyuslLRSjjgCg==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@types%2fexpress-serve-static-core/-/express-serve-static-core-4.19.3.tgz}
+    name: '@types/express-serve-static-core'
+    version: 4.19.3
+    dependencies:
+      '@types/node': npm-verdaccio.gaodunwangxiao.com/@types/node@20.14.2
+      '@types/qs': npm-verdaccio.gaodunwangxiao.com/@types/qs@6.9.15
+      '@types/range-parser': npm-verdaccio.gaodunwangxiao.com/@types/range-parser@1.2.7
+      '@types/send': npm-verdaccio.gaodunwangxiao.com/@types/send@0.17.4
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@types/express@4.17.21:
+    resolution: {integrity: sha512-ejlPM315qwLpaQlQDTjPdsUFSc6ZsP4AN6AlWnogPjQ7CVi7PYF3YVz+CY3jE2pwYf7E/7HlDAN0rV2GxTG0HQ==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@types%2fexpress/-/express-4.17.21.tgz}
+    name: '@types/express'
+    version: 4.17.21
+    dependencies:
+      '@types/body-parser': npm-verdaccio.gaodunwangxiao.com/@types/body-parser@1.19.5
+      '@types/express-serve-static-core': npm-verdaccio.gaodunwangxiao.com/@types/express-serve-static-core@4.19.3
+      '@types/qs': npm-verdaccio.gaodunwangxiao.com/@types/qs@6.9.15
+      '@types/serve-static': npm-verdaccio.gaodunwangxiao.com/@types/serve-static@1.15.7
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@types/http-errors@2.0.4:
+    resolution: {integrity: sha512-D0CFMMtydbJAegzOyHjtiKPLlvnm3iTZyZRSZoLq2mRhDdmLfIWOCYPfQJ4cu2erKghU++QvjcUjp/5h7hESpA==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@types%2fhttp-errors/-/http-errors-2.0.4.tgz}
+    name: '@types/http-errors'
+    version: 2.0.4
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@types/mime@1.3.5:
+    resolution: {integrity: sha512-/pyBZWSLD2n0dcHE3hq8s8ZvcETHtEuF+3E7XVt0Ig2nvsVQXdghHVcEkIWjy9A0wKfTn97a/PSDYohKIlnP/w==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@types%2fmime/-/mime-1.3.5.tgz}
+    name: '@types/mime'
+    version: 1.3.5
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@types/node@20.14.2:
+    resolution: {integrity: sha512-xyu6WAMVwv6AKFLB+e/7ySZVr/0zLCzOa7rSpq6jNwpqOrUbcACDWC+53d4n2QHOnDou0fbIsg8wZu/sxrnI4Q==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@types%2fnode/-/node-20.14.2.tgz}
+    name: '@types/node'
+    version: 20.14.2
+    dependencies:
+      undici-types: npm-verdaccio.gaodunwangxiao.com/undici-types@5.26.5
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@types/qs@6.9.15:
+    resolution: {integrity: sha512-uXHQKES6DQKKCLh441Xv/dwxOq1TVS3JPUMlEqoEglvlhR6Mxnlew/Xq/LRVHpLyk7iK3zODe1qYHIMltO7XGg==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@types%2fqs/-/qs-6.9.15.tgz}
+    name: '@types/qs'
+    version: 6.9.15
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@types/range-parser@1.2.7:
+    resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@types%2frange-parser/-/range-parser-1.2.7.tgz}
+    name: '@types/range-parser'
+    version: 1.2.7
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@types/send@0.17.4:
+    resolution: {integrity: sha512-x2EM6TJOybec7c52BX0ZspPodMsQUd5L6PRwOunVyVUhXiBSKf3AezDL8Dgvgt5o0UfKNfuA0eMLr2wLT4AiBA==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@types%2fsend/-/send-0.17.4.tgz}
+    name: '@types/send'
+    version: 0.17.4
+    dependencies:
+      '@types/mime': npm-verdaccio.gaodunwangxiao.com/@types/mime@1.3.5
+      '@types/node': npm-verdaccio.gaodunwangxiao.com/@types/node@20.14.2
+    dev: true
+
+  npm-verdaccio.gaodunwangxiao.com/@types/serve-static@1.15.7:
+    resolution: {integrity: sha512-W8Ym+h8nhuRwaKPaDw34QUkwsGi6Rc4yYqvKFo5rm2FUEhCFbzVWrxXUxuKK8TASjWsysJY0nsmNCGhCOIsrOw==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@types%2fserve-static/-/serve-static-1.15.7.tgz}
+    name: '@types/serve-static'
+    version: 1.15.7
+    dependencies:
+      '@types/http-errors': npm-verdaccio.gaodunwangxiao.com/@types/http-errors@2.0.4
+      '@types/node': npm-verdaccio.gaodunwangxiao.com/@types/node@20.14.2
+      '@types/send': npm-verdaccio.gaodunwangxiao.com/@types/send@0.17.4
+    dev: true
 
   npm-verdaccio.gaodunwangxiao.com/@types/triple-beam@1.3.5:
     resolution: {integrity: sha512-6WaYesThRMCl19iryMYP7/x2OVgCtbIVflDGFpWnb9irXI3UjYE4AzmYuiUKY1AJstGijoY+MgUszMgRxIYTYw==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/@types%2ftriple-beam/-/triple-beam-1.3.5.tgz}
@@ -76,6 +235,13 @@ packages:
       acorn: npm-verdaccio.gaodunwangxiao.com/acorn@2.7.0
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/acorn-walk@8.3.2:
+    resolution: {integrity: sha512-cjkyv4OtNCIeqhHrfS81QWXoCBPExR/J62oyEqepVw8WaQeSqpW2uhuLPh1m9eWhDuOo/jUXVTlifvesOWp/4A==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/acorn-walk/-/acorn-walk-8.3.2.tgz}
+    name: acorn-walk
+    version: 8.3.2
+    engines: {node: '>=0.4.0'}
+    dev: true
+
   npm-verdaccio.gaodunwangxiao.com/acorn@1.2.2:
     resolution: {integrity: sha1-yM4n3grMdtiW0rH6099YjZ6C8BQ=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/acorn/-/acorn-1.2.2.tgz}
     name: acorn
@@ -91,6 +257,14 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/acorn@8.11.3:
+    resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/acorn/-/acorn-8.11.3.tgz}
+    name: acorn
+    version: 8.11.3
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+    dev: true
 
   npm-verdaccio.gaodunwangxiao.com/align-text@0.1.4:
     resolution: {integrity: sha1-DNkKVhCT810KmSVsIrcGlDP60Rc=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/align-text/-/align-text-0.1.4.tgz}
@@ -109,6 +283,12 @@ packages:
     version: 1.0.1
     engines: {node: '>=0.4.2'}
     dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/arg@4.1.3:
+    resolution: {integrity: sha512-58S9QDqG0Xx27YwPSt9fJxivjYl432YCwfDMfZ+71RAqUrZef7LrKQZ3LHLOwCS4FLNBplP533Zx895SeOCHvA==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/arg/-/arg-4.1.3.tgz}
+    name: arg
+    version: 4.1.3
+    dev: true
 
   npm-verdaccio.gaodunwangxiao.com/array-flatten@1.1.1:
     resolution: {integrity: sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/array-flatten/-/array-flatten-1.1.1.tgz}
@@ -342,6 +522,12 @@ packages:
     version: 1.0.3
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/create-require@1.1.1:
+    resolution: {integrity: sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/create-require/-/create-require-1.1.1.tgz}
+    name: create-require
+    version: 1.1.1
+    dev: true
+
   npm-verdaccio.gaodunwangxiao.com/css-parse@1.0.4:
     resolution: {integrity: sha1-OLBQP7+dqfVOnB29pg4UXHcRe90=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/css-parse/-/css-parse-1.0.4.tgz}
     name: css-parse
@@ -416,6 +602,13 @@ packages:
     name: destroy
     version: 1.0.4
     dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/diff@4.0.2:
+    resolution: {integrity: sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/diff/-/diff-4.0.2.tgz}
+    name: diff
+    version: 4.0.2
+    engines: {node: '>=0.3.1'}
+    dev: true
 
   npm-verdaccio.gaodunwangxiao.com/ee-first@1.1.1:
     resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/ee-first/-/ee-first-1.1.1.tgz}
@@ -802,6 +995,12 @@ packages:
     version: 1.0.1
     engines: {node: '>=0.10.0'}
     dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/make-error@1.3.6:
+    resolution: {integrity: sha512-s8UhlNe7vPKomQhC1qFelMokr/Sc3AgNbso3n74mVPA5LTZwkB9NlXf4XPamLxJE8h0gh73rM94xvwRT2CVInw==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/make-error/-/make-error-1.3.6.tgz}
+    name: make-error
+    version: 1.3.6
+    dev: true
 
   npm-verdaccio.gaodunwangxiao.com/media-typer@0.3.0:
     resolution: {integrity: sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/media-typer/-/media-typer-0.3.0.tgz}
@@ -1291,6 +1490,40 @@ packages:
     engines: {node: '>= 14.0.0'}
     dev: false
 
+  npm-verdaccio.gaodunwangxiao.com/ts-node@10.9.2(@types/node@20.14.2)(typescript@5.4.5):
+    resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/ts-node/-/ts-node-10.9.2.tgz}
+    id: npm-verdaccio.gaodunwangxiao.com/ts-node/10.9.2
+    name: ts-node
+    version: 10.9.2
+    hasBin: true
+    peerDependencies:
+      '@swc/core': '>=1.2.50'
+      '@swc/wasm': '>=1.2.50'
+      '@types/node': '*'
+      typescript: '>=2.7'
+    peerDependenciesMeta:
+      '@swc/core':
+        optional: true
+      '@swc/wasm':
+        optional: true
+    dependencies:
+      '@cspotcode/source-map-support': npm-verdaccio.gaodunwangxiao.com/@cspotcode/source-map-support@0.8.1
+      '@tsconfig/node10': npm-verdaccio.gaodunwangxiao.com/@tsconfig/node10@1.0.11
+      '@tsconfig/node12': npm-verdaccio.gaodunwangxiao.com/@tsconfig/node12@1.0.11
+      '@tsconfig/node14': npm-verdaccio.gaodunwangxiao.com/@tsconfig/node14@1.0.3
+      '@tsconfig/node16': npm-verdaccio.gaodunwangxiao.com/@tsconfig/node16@1.0.4
+      '@types/node': npm-verdaccio.gaodunwangxiao.com/@types/node@20.14.2
+      acorn: npm-verdaccio.gaodunwangxiao.com/acorn@8.11.3
+      acorn-walk: npm-verdaccio.gaodunwangxiao.com/acorn-walk@8.3.2
+      arg: npm-verdaccio.gaodunwangxiao.com/arg@4.1.3
+      create-require: npm-verdaccio.gaodunwangxiao.com/create-require@1.1.1
+      diff: npm-verdaccio.gaodunwangxiao.com/diff@4.0.2
+      make-error: npm-verdaccio.gaodunwangxiao.com/make-error@1.3.6
+      typescript: npm-verdaccio.gaodunwangxiao.com/typescript@5.4.5
+      v8-compile-cache-lib: npm-verdaccio.gaodunwangxiao.com/v8-compile-cache-lib@3.0.1
+      yn: npm-verdaccio.gaodunwangxiao.com/yn@3.1.1
+    dev: true
+
   npm-verdaccio.gaodunwangxiao.com/type-is@1.6.18:
     resolution: {integrity: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/type-is/-/type-is-1.6.18.tgz}
     name: type-is
@@ -1300,6 +1533,14 @@ packages:
       media-typer: npm-verdaccio.gaodunwangxiao.com/media-typer@0.3.0
       mime-types: npm-verdaccio.gaodunwangxiao.com/mime-types@2.1.35
     dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/typescript@5.4.5:
+    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/typescript/-/typescript-5.4.5.tgz}
+    name: typescript
+    version: 5.4.5
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
 
   npm-verdaccio.gaodunwangxiao.com/uglify-js@2.2.5:
     resolution: {integrity: sha1-puAqcNg5eSuXgEiLe4sYTAlcmcc=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/uglify-js/-/uglify-js-2.2.5.tgz}
@@ -1333,6 +1574,12 @@ packages:
     dev: false
     optional: true
 
+  npm-verdaccio.gaodunwangxiao.com/undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/undici-types/-/undici-types-5.26.5.tgz}
+    name: undici-types
+    version: 5.26.5
+    dev: true
+
   npm-verdaccio.gaodunwangxiao.com/unpipe@1.0.0:
     resolution: {integrity: sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/unpipe/-/unpipe-1.0.0.tgz}
     name: unpipe
@@ -1352,6 +1599,12 @@ packages:
     version: 1.0.1
     engines: {node: '>= 0.4.0'}
     dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/v8-compile-cache-lib@3.0.1:
+    resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz}
+    name: v8-compile-cache-lib
+    version: 3.0.1
+    dev: true
 
   npm-verdaccio.gaodunwangxiao.com/vary@1.1.2:
     resolution: {integrity: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/vary/-/vary-1.1.2.tgz}
@@ -1437,3 +1690,10 @@ packages:
       decamelize: npm-verdaccio.gaodunwangxiao.com/decamelize@1.2.0
       window-size: npm-verdaccio.gaodunwangxiao.com/window-size@0.1.0
     dev: false
+
+  npm-verdaccio.gaodunwangxiao.com/yn@3.1.1:
+    resolution: {integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==, registry: https://npm-service.gaodunwangxiao.com/, tarball: https://npm-verdaccio.gaodunwangxiao.com/yn/-/yn-3.1.1.tgz}
+    name: yn
+    version: 3.1.1
+    engines: {node: '>=6'}
+    dev: true
