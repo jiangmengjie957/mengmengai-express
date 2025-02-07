@@ -4,9 +4,28 @@ import path from 'path';
 import cookieParser from 'cookie-parser';
 import morgan from 'morgan';
 import logger from '../logger';
+import cors from 'cors';
 
 import indexRouter from './routes/index';
 import usersRouter from './routes/users';
+import chatRouter from './routes/chat'
+import routes from './routes'
+import MoonshotAIChatbot from './services/getAi';
+import compression from 'compression'
+// (async () => {
+//   const steam = await MoonshotAIChatbot.streamChat('简短介绍一下react')
+//    for await (const model of steam) {
+//       const content = model.choices[0].delta?.content
+//       console.log(content,'content')
+//     }
+// })()
+
+const corsOptions = {
+  origin: '*',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  headers: '*',
+};
+
 
 const app = express();
 
@@ -20,8 +39,12 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser() as any);
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use(cors(corsOptions))
+app.use(compression())
+
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/chat', chatRouter);
 
 // catch 404 and forward to error handler
 app.use((req: Request, res: Response, next: NextFunction) => {

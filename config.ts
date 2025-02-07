@@ -10,7 +10,8 @@ const configs = {
         error (message: string) {
             console.log('[Knex error]', message)
         }
-    }
+    },
+    aiToken: 'sk-w8mxMdJX1Y1WHhL4yZp26NmrbB43xSRoxmEsIixj7Ae4QJe1'
 }
 
 export default configs

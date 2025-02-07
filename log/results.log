@@ -3,3 +3,8 @@
 2024-06-05 19:19:37 error [www]: GET /favicon.ico Not Found
 2024-06-05 20:02:25 error [www]: GET /favicon.ico Not Found
 2024-06-06 15:28:35 error [www.ts]: GET /error Not Found
+2024-06-06 15:40:31 error [www.ts]: GET /error Not Found
+2024-06-06 15:40:35 error [www.ts]: GET / Failed to lookup view "index" in views directory "/Users/jiangmengjie/Downloads/person-projects/mengmengai/src/views"
+2024-06-06 15:40:38 error [www.ts]: GET / Failed to lookup view "index" in views directory "/Users/jiangmengjie/Downloads/person-projects/mengmengai/src/views"
+2024-06-06 16:49:53 error [www.ts]: GET /user Not Found
+2024-06-06 16:50:35 error [www.ts]: GET /chat Not Found
