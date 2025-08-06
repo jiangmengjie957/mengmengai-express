@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "ts-node bin/www"
   },
   "dependencies": {
     "@types/compression": "^1.7.5",
