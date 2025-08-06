@@ -7,12 +7,10 @@ const chatController = {
       const question = req.body.question
       const isVisitor = req.body.isVisitor
       const history = req.body.history
-      const isStream = req.body.isStream
+      const isSingleChat = req.body.isSingleChat
       const systemPrompt = req.body.systemPrompt
-      console.log(isStream, question,isVisitor, history, 'question')
-      if (isStream) {
+      if (isSingleChat) {
         const completion: any = await MoonshotAIChatbot.chat(question, systemPrompt)
-        console.log(completion, 'completion1')
         res.json({
           code: 200,
           message: '操作成功',
@@ -21,12 +19,10 @@ const chatController = {
       } else {
         if (question) {
           const completion: any = await MoonshotAIChatbot.streamChat(question, isVisitor, history)
-          console.log(completion,'completion')
           // 流式数据
           for await (const model of completion) {
                 const choices = model.choices[0];
                 if (choices.finish_reason === 'stop') {
-                  console.log('end')
                   res.end()
                   break
                 } else {
