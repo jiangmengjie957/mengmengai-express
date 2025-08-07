@@ -27,19 +27,17 @@ class MoonshotAIChatbot {
   }
 
   async chat(prompt: string, systemPrompt?: string): Promise<string | null> {
+    const timestamp = Date.now();
     const chatList = [{
       role: 'system',
-      content:
-        '你是 凌大， 几道 提供的人工智能助手，你更擅长中文和英文的对话。你会为用户提供安全，有帮助，准确的回答。同时，你会拒绝一切涉及恐怖主义，种族歧视，黄色暴力等问题的回答。凌大 为专有名词，不可翻译成其他语言。',
-    },]
-    console.log(systemPrompt,'systemPrompt')
+      content: '你是 凌大， 几道 提供的人工智能助手，你更擅长中文和英文的对话。你会为用户提供安全，有帮助，准确的回答。同时，你会拒绝一切涉及恐怖主义，种族歧视，黄色暴力等问题的回答。凌大 为专有名词，不可翻译成其他语言。' + `今天的日期是 ${new Date().toString()}`
+    }]
     if (systemPrompt) {
       chatList.push({ role: 'system', content: systemPrompt })
     }
     chatList.push({ role: 'user', content: prompt })
-    console.log(chatList,'chatList')
     const completion = await this.client.chat.completions.create({
-      model: 'moonshot-v1-8k',
+      model: 'kimi-k2-turbo-preview',
       messages: chatList,
     } as any)
     return completion.choices[0].message.content
@@ -51,7 +49,6 @@ class MoonshotAIChatbot {
     clientHistory?: any
   ): Promise<Readable> {
     // this.history.push({ role: 'user', content: prompt })
-    // console.log(this.history, prompt, Array.isArray(clientHistory), 'history')
     // const messages = [...this.history , { role: 'user', content: prompt }]
     let messages
     if (isVisitor && clientHistory?.length) {
@@ -60,7 +57,7 @@ class MoonshotAIChatbot {
       messages = [...this.history, { role: 'user', content: prompt }]
     }
     const completion: any = await this.client.chat.completions.create({
-      model: 'moonshot-v1-8k',
+      model: 'kimi-k2-turbo-preview',
       messages,
       stream: true,
     } as any)
